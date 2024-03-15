@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "project_1.html#time-series-used-in-the-project--",
+    "href": "project_1.html#time-series-used-in-the-project--",
+    "title": "Time Series - Midterm Project",
+    "section": "Time Series used in the project -",
+    "text": "Time Series used in the project -\n\nReal Estate Loans: “Residential Real Estate Loans, All Commercial Banks” from FRED which represents the total amount of residential real estate loans issued by all commercial banks in the United States.\nThe covariate series used is “30-Year Fixed Rate Mortgage Average” which represents the average interest rate on 30-year fixed-rate mortgages in the United States"
+  },
+  {
+    "objectID": "project_1.html#relevance--",
+    "href": "project_1.html#relevance--",
+    "title": "Time Series - Midterm Project",
+    "section": "Relevance -",
+    "text": "Relevance -\n\nThe average interest rate on 30-year fixed-rate mortgages is a crucial factor influencing the affordability of home purchases and the demand for mortgage financing.\nBy analyzing trends in the fixed-rate mortgage average, we can gain insights into shifts in mortgage interest rates, which in turn can influence housing market activity, including home sales, and overall residential real estate lending."
+  },
+  {
+    "objectID": "project_1.html#basic-statistics-about-datasets--",
+    "href": "project_1.html#basic-statistics-about-datasets--",
+    "title": "Time Series - Midterm Project",
+    "section": "Basic statistics about datasets -",
+    "text": "Basic statistics about datasets -\n\n\n- Both time series are on weekly basis and not seasonally adjusted.\n\n\n- Total number of rows in real estate loans dataset: 1031 \n\n\n- Total number of rows in mortgage rate dataset: 2764 \n\n\n- Summary of real estate loans dataset: \n\n\n      date                value     \n Min.   :2004-06-02   Min.   :1396  \n 1st Qu.:2009-05-09   1st Qu.:2036  \n Median :2014-04-16   Median :2107  \n Mean   :2014-04-16   Mean   :2092  \n 3rd Qu.:2019-03-23   3rd Qu.:2226  \n Max.   :2024-02-28   Max.   :2574  \n\n\n- Summary of mortgage rate dataset: \n\n\n      date                value       \n Min.   :1971-04-02   Min.   : 2.650  \n 1st Qu.:1984-06-27   1st Qu.: 5.200  \n Median :1997-09-22   Median : 7.400  \n Mean   :1997-09-22   Mean   : 7.733  \n 3rd Qu.:2010-12-17   3rd Qu.: 9.455  \n Max.   :2024-03-14   Max.   :18.630"
+  },
+  {
+    "objectID": "project_1.html#making-start-and-end-dates-compatible--",
+    "href": "project_1.html#making-start-and-end-dates-compatible--",
+    "title": "Time Series - Midterm Project",
+    "section": "Making start and end dates compatible -",
+    "text": "Making start and end dates compatible -\n\n\n[1] \"Start date of real estate loans series: 2004-06-02\"\n\n\n[1] \"Start date of mortgage rate series: 1971-04-02\"\n\n\n[1] \"End date of real estate loans series: 2024-02-28\"\n\n\n[1] \"End date of mortgage rate series: 2024-03-14\"\n\n\n \n\n\nStart and end date of both the series after filtering the datasets - \n\n\n[1] \"Start date of real estate loans series: 2004-06-02\"\n\n\n[1] \"Start date of mortgage rate series: 2004-06-02\"\n\n\n[1] \"End date of real estate loans series: 2024-02-28\"\n\n\n[1] \"End date of mortgage rate series: 2024-02-28\""
+  },
+  {
+    "objectID": "project_1.html#number-of-observations-after-filteration--",
+    "href": "project_1.html#number-of-observations-after-filteration--",
+    "title": "Time Series - Midterm Project",
+    "section": "Number of observations after filteration -",
+    "text": "Number of observations after filteration -\n\n\n- Total number of rows in real estate loans: 1031 \n\n\n- Total number of rows in mortgage rate: 1031"
+  },
+  {
+    "objectID": "project_1.html#visualizing-the-datasets--",
+    "href": "project_1.html#visualizing-the-datasets--",
+    "title": "Time Series - Midterm Project",
+    "section": "Visualizing the datasets -",
+    "text": "Visualizing the datasets -"
+  },
+  {
+    "objectID": "project_1.html#correlation-coefficient--",
+    "href": "project_1.html#correlation-coefficient--",
+    "title": "Time Series - Midterm Project",
+    "section": "Correlation coefficient -",
+    "text": "Correlation coefficient -\n\n\nCorrelation between Real Estate Loans and Mortgage rate series:  -0.2463609"
+  },
+  {
+    "objectID": "project_1.html#acf-and-pacf-of-real-estate-loans--",
+    "href": "project_1.html#acf-and-pacf-of-real-estate-loans--",
+    "title": "Time Series - Midterm Project",
+    "section": "ACF and PACF of Real Estate loans -",
+    "text": "ACF and PACF of Real Estate loans -"
+  },
+  {
+    "objectID": "project_1.html#acf-and-pacf-of-mortgage-rate--",
+    "href": "project_1.html#acf-and-pacf-of-mortgage-rate--",
+    "title": "Time Series - Midterm Project",
+    "section": "ACF and PACF of Mortgage Rate -",
+    "text": "ACF and PACF of Mortgage Rate -"
+  },
+  {
+    "objectID": "project_1.html#decomposition-for-real-estate-loans--",
+    "href": "project_1.html#decomposition-for-real-estate-loans--",
+    "title": "Time Series - Midterm Project",
+    "section": "Decomposition for Real Estate Loans -",
+    "text": "Decomposition for Real Estate Loans -"
+  },
+  {
+    "objectID": "project_1.html#decomposition-for-mortgage-rate--",
+    "href": "project_1.html#decomposition-for-mortgage-rate--",
+    "title": "Time Series - Midterm Project",
+    "section": "Decomposition for Mortgage rate -",
+    "text": "Decomposition for Mortgage rate -"
+  },
+  {
+    "objectID": "project_1.html#plotting-both-the-series--",
+    "href": "project_1.html#plotting-both-the-series--",
+    "title": "Time Series - Midterm Project",
+    "section": "Plotting both the series -",
+    "text": "Plotting both the series -\n\nmin_max_scale &lt;- function(x) {\n  (x - min(x)) / (max(x) - min(x))\n}\n\n# Scale the data for each series\nreal_estate_scaled &lt;- filtered_real_estate_loans\nreal_estate_scaled$value &lt;- min_max_scale(filtered_real_estate_loans$value)\n\nmortgage_scaled &lt;- filtered_mortgae_rate\nmortgage_scaled$value &lt;- min_max_scale(filtered_mortgae_rate$value)\n\n# Merge data\nmerged_data &lt;- merge(real_estate_scaled, mortgage_scaled, by = \"date\", all = TRUE)\n\n# Plot series\nggplot(merged_data, aes(x = date)) +\n  geom_line(aes(y = value.x, color = \"Real Estate Loans\")) +\n  geom_line(aes(y = value.y, color = \"Mortgage Rate\")) +\n  labs(title = \"Weekly Series: Initial Jobless Claims vs Retail Sales\",\n       x = \"Date\",\n       y = \"Value\") +\n  scale_color_manual(name = \"Series\", values = c(\"Real Estate Loans\" = \"blue\", \"Mortgage Rate\" = \"red\")) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "project_1.html#plotting-both-the-series---output",
+    "href": "project_1.html#plotting-both-the-series---output",
+    "title": "Time Series - Midterm Project",
+    "section": "Plotting both the series -",
+    "text": "Plotting both the series -"
+  },
+  {
+    "objectID": "project_1.html#checking-for-stationarity--",
+    "href": "project_1.html#checking-for-stationarity--",
+    "title": "Time Series - Midterm Project",
+    "section": "Checking for stationarity -",
+    "text": "Checking for stationarity -\n\n\nChecking stationarity for Real Estate Loans: \n\n\nADF Test:\n\n    Augmented Dickey-Fuller Test\n\ndata:  data\nDickey-Fuller = -2.8159, Lag order = 10, p-value = 0.2329\nalternative hypothesis: stationary\n\n\nKPSS Test:\n\n    KPSS Test for Level Stationarity\n\ndata:  data\nKPSS Level = 9.2076, Truncation lag parameter = 7, p-value = 0.01\n\n\n \n\n\nChecking stationarity for Mortgage Rate: \n\n\nADF Test:\n\n    Augmented Dickey-Fuller Test\n\ndata:  data\nDickey-Fuller = -0.51444, Lag order = 10, p-value = 0.9812\nalternative hypothesis: stationary\n\n\nKPSS Test:\n\n    KPSS Test for Level Stationarity\n\ndata:  data\nKPSS Level = 3.7472, Truncation lag parameter = 7, p-value = 0.01"
+  },
+  {
+    "objectID": "project_1.html#making-data-stationary",
+    "href": "project_1.html#making-data-stationary",
+    "title": "Time Series - Midterm Project",
+    "section": "Making data stationary:",
+    "text": "Making data stationary:"
+  },
+  {
+    "objectID": "project_1.html#overview---regarima-model",
+    "href": "project_1.html#overview---regarima-model",
+    "title": "Time Series - Midterm Project",
+    "section": "Overview - regARIMA model",
+    "text": "Overview - regARIMA model\n\nTo model the complex relationship between residential real estate loans and mortgage rates, we employ a Regression with ARIMA errors (RegARIMA) model.\nThis approach allows for incorporating the average mortgage rate as an external regressor to predict the volume of real estate loans while accounting for auto-correlated residuals and non-stationarity inherent in time series data."
+  },
+  {
+    "objectID": "project_1.html#mathematical-framework",
+    "href": "project_1.html#mathematical-framework",
+    "title": "Time Series - Midterm Project",
+    "section": "Mathematical framework",
+    "text": "Mathematical framework\nThe RegARIMA model integrates regression analysis with ARIMA modeling, specified as:\n\\[\ny_t = \\mathbf{X}_t \\boldsymbol{\\beta} + n_t\n\\]\nwhere (y_t) is the observed time series at time (t), (_t) represents external regressors, () denotes the regression coefficients, and (n_t) is an error term following an ARIMA model:\n\\[\n\\Phi(B) \\Delta^d n_t = \\Theta(B) \\epsilon_t\n\\]\nHere, (^d) is the differencing operator, (B) the backshift operator, ((B)) and ((B)) the AR and MA polynomial operators, and (_t) white noise."
+  },
+  {
+    "objectID": "project_1.html#application-in-project",
+    "href": "project_1.html#application-in-project",
+    "title": "Time Series - Midterm Project",
+    "section": "Application in project",
+    "text": "Application in project\n\nThe goal is to analyze how the 30-Year Fixed Rate Mortgage Average impacts the volume of residential real estate loans.\nTo uncover the relationship between the volume of real estate loans and the average mortgage rate while accounting for autocorrelations within the residuals, we apply a RegARIMA modeling approach.\nThis section outlines the process from fitting a linear model to adjusting for ARIMA errors."
+  },
+  {
+    "objectID": "project_1.html#summary-of-reg-arima-model--",
+    "href": "project_1.html#summary-of-reg-arima-model--",
+    "title": "Time Series - Midterm Project",
+    "section": "Summary of reg ARIMA model -",
+    "text": "Summary of reg ARIMA model -\n\n\nSeries: filtered_real_estate_loans$value \nRegression with ARIMA(5,1,1) errors \n\nCoefficients:\n          ar1      ar2      ar3     ar4     ar5     ma1   drift    xreg\n      -0.2217  -0.2829  -0.1260  0.2241  0.2442  0.1891  1.1346  4.7569\ns.e.   0.0886   0.0303   0.0414  0.0322  0.0350  0.0877  0.3679  3.4120\n\nsigma^2 = 134.5:  log likelihood = -3982.13\nAIC=7982.26   AICc=7982.44   BIC=8026.7\n\nTraining set error measures:\n                      ME     RMSE     MAE         MPE     MAPE      MASE\nTraining set 0.004017053 11.54541 6.87518 0.002596298 0.336745 0.7590711\n                    ACF1\nTraining set 0.009363033"
+  },
+  {
+    "objectID": "project_1.html#summary-of-reg-arima-model---1",
+    "href": "project_1.html#summary-of-reg-arima-model---1",
+    "title": "Time Series - Midterm Project",
+    "section": "Summary of reg ARIMA model -",
+    "text": "Summary of reg ARIMA model -\n\n\n- MAE is 6.88, which tells us the average absolute difference between the observed and predicted values. Lower MAE indicates better prediiction accuracy.\n\n\n- MPE is positive, which tells us that the model is overestimating the predicted value than the actual value."
+  },
+  {
+    "objectID": "project_1.html#model-equation--",
+    "href": "project_1.html#model-equation--",
+    "title": "Time Series - Midterm Project",
+    "section": "Model equation -",
+    "text": "Model equation -\n\n\nBased on the provided coefficients, the regression ARIMA equation would be:\n\n\n\\[\ny_t = 1.1346 - 0.2217 \\cdot y_{t-1} - 0.2829 \\cdot y_{t-2} - 0.1260 \\cdot y_{t-3} + 0.2241 \\cdot y_{t-4} + 0.2442 \\cdot y_{t-5} + 0.1892 \\cdot e_{t-1} + 4.7569 \\cdot covariate + e_t\n\\]"
+  },
+  {
+    "objectID": "project_1.html#model-diagnosis--",
+    "href": "project_1.html#model-diagnosis--",
+    "title": "Time Series - Midterm Project",
+    "section": "Model Diagnosis -",
+    "text": "Model Diagnosis -\n\n\n\n\n    Ljung-Box test\n\ndata:  Residuals from Regression with ARIMA(5,1,1) errors\nQ* = 37.698, df = 4, p-value = 1.293e-07\n\nModel df: 6.   Total lags used: 10"
+  },
+  {
+    "objectID": "project_1.html#model-diagnosis---1",
+    "href": "project_1.html#model-diagnosis---1",
+    "title": "Time Series - Midterm Project",
+    "section": "Model Diagnosis -",
+    "text": "Model Diagnosis -\n\n\nResiduals over time: \n\n\n- Residuals fluctuate around the zero line, which is expected.\n\n\n- There are several spikes that stand out, suggesting potential outliers or model misspecification.\n\n\n- The variance of residuals appears constant over time, indicating no obvious signs of heteroscedasticity.\n\n\n \n\n\nAutocorrelation Function (ACF) of Residuals: \n\n\n- The ACF plot does not show significant autocorrelations for any lag, as most of the bars are within the blue dashed confidence interval lines.\n\n\n- This indicates that the residuals do not exhibit autocorrelation and the model is capturing the data's temporal structure well.\n\n\n \n\n\nHistogram and Density of Residuals: \n\n\n- The histogram shows the distribution of residuals with a superimposed red line representing the normal distribution.\n\n\n- Residuals are approximately normally distributed but show a slight leftward skew, suggesting a minor deviation from normality.\n\n\n- Despite the skew, the distribution of residuals does not show extreme deviations from the expected normal distribution."
+  },
+  {
+    "objectID": "project_1.html#overview---var-vector-autoregression-model",
+    "href": "project_1.html#overview---var-vector-autoregression-model",
+    "title": "Time Series - Midterm Project",
+    "section": "Overview - VAR (Vector Autoregression) model",
+    "text": "Overview - VAR (Vector Autoregression) model\n\nThe Vector Autoregression (VAR) model is a type of time series model used for forecasting multiple time series variables simultaneously.\nIt extends the univariate autoregressive model to handle multiple time series variables that may interact with each other over time."
+  },
+  {
+    "objectID": "project_1.html#mathematical-framework--",
+    "href": "project_1.html#mathematical-framework--",
+    "title": "Time Series - Midterm Project",
+    "section": "Mathematical framework -",
+    "text": "Mathematical framework -\n\nVAR models are based on the assumption that each variable in the system is linearly dependent on its own lagged values as well as the lagged values of all other variables in the system.\nMathematically, a VAR(p) model of order p for k time series variables can be represented as:\n\nWhere:\nYt is a k-dimensional vector of endogenous variables at time t. C is a k-dimensional vector representing the intercept term. Φ1, Φ2, …, Φp are coefficient matrices of lagged values up to order p. Ut is a k-dimensional vector of error terms at time t."
+  },
+  {
+    "objectID": "project_1.html#summary-of-var-model--",
+    "href": "project_1.html#summary-of-var-model--",
+    "title": "Time Series - Midterm Project",
+    "section": "Summary of VAR model -",
+    "text": "Summary of VAR model -\n\n\nSummary of VAR model - \n\n\n\nVAR Estimation Results:\n========================= \nEndogenous variables: value.x, value.y \nDeterministic variables: const \nSample size: 1001 \nLog Likelihood: -3132.938 \nRoots of the characteristic polynomial:\n1.001 0.9943\nCall:\nVAR(y = ts_combined_data[, c(\"value.x\", \"value.y\")])\n\n\nEstimation results for equation value.x: \n======================================== \nvalue.x = value.x.l1 + value.y.l1 + const \n\n           Estimate Std. Error t value Pr(&gt;|t|)    \nvalue.x.l1 0.996863   0.001887 528.195   &lt;2e-16 ***\nvalue.y.l1 0.643731   0.374338   1.720   0.0858 .  \nconst      4.695354   4.734422   0.992   0.3216    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\nResidual standard error: 13.68 on 998 degrees of freedom\nMultiple R-Squared: 0.9967, Adjusted R-squared: 0.9966 \nF-statistic: 1.486e+05 on 2 and 998 DF,  p-value: &lt; 2.2e-16 \n\n\nEstimation results for equation value.y: \n======================================== \nvalue.y = value.x.l1 + value.y.l1 + const \n\n             Estimate Std. Error t value Pr(&gt;|t|)    \nvalue.x.l1  1.565e-05  1.354e-05   1.156    0.248    \nvalue.y.l1  9.983e-01  2.686e-03 371.692   &lt;2e-16 ***\nconst      -2.391e-02  3.397e-02  -0.704    0.482    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\nResidual standard error: 0.09816 on 998 degrees of freedom\nMultiple R-Squared: 0.9933, Adjusted R-squared: 0.9933 \nF-statistic: 7.359e+04 on 2 and 998 DF,  p-value: &lt; 2.2e-16 \n\n\n\nCovariance matrix of residuals:\n          value.x  value.y\nvalue.x 187.19559 0.008190\nvalue.y   0.00819 0.009636\n\nCorrelation matrix of residuals:\n         value.x  value.y\nvalue.x 1.000000 0.006098\nvalue.y 0.006098 1.000000"
+  },
+  {
+    "objectID": "project_1.html#model-diagnostics",
+    "href": "project_1.html#model-diagnostics",
+    "title": "Time Series - Midterm Project",
+    "section": "Model diagnostics:",
+    "text": "Model diagnostics:\n\n\nRoot of the Characteristic Polynomial:\n\n\n- The roots of the characteristic polynomial are provided. These roots are essential for understanding the stability of the model. In this case, the roots are 1.001 and 0.9943, indicating that the model is stable.\n\n\n \n\n\nResidual Analysis:\n\n\n- Covariance matrix provides the covariance between residuals of each equation.\n\n\n- t helps in understanding the linear relationship between the residuals of different equations.\n\n\n- The RSE of 13.68 for house loans series means that, on average, the observed values of the endogenous variables deviate from the values predicted by the VAR model by approximately 13.68 units."
+  },
+  {
+    "objectID": "project_1.html#regarima-model--",
+    "href": "project_1.html#regarima-model--",
+    "title": "Time Series - Midterm Project",
+    "section": "regARIMA model -",
+    "text": "regARIMA model -\n\n\n\n\nForecasted value for the next week: 2574.019"
+  },
+  {
+    "objectID": "project_1.html#cross-validation--",
+    "href": "project_1.html#cross-validation--",
+    "title": "Time Series - Midterm Project",
+    "section": "Cross-Validation -",
+    "text": "Cross-Validation -\n\n\n- RMSE value after cross validatiion:  13.87549\n\n\n- MAE value after cross validatiion:  8.950738\n\n\n- MAPE value after cross validatiion:  0.008412029\n\n\n\nForecasted value for the next week: 2293.682\n\n\n\n Forecasted value for regARIMA without cross validation has less error rate and thus final forecasted value for regARIMA model is:  2574.019"
+  },
+  {
+    "objectID": "project_1.html#var-model--",
+    "href": "project_1.html#var-model--",
+    "title": "Time Series - Midterm Project",
+    "section": "VAR model -",
+    "text": "VAR model -\n\n\n\n\nForecasted value for the next week: 2573.884"
+  },
+  {
+    "objectID": "project_1.html#cross-validation---1",
+    "href": "project_1.html#cross-validation---1",
+    "title": "Time Series - Midterm Project",
+    "section": "Cross-Validation -",
+    "text": "Cross-Validation -\n\n\nRMSE value for VAR model using cross validation:  907.7228\n\n\nMAE value for VAR model using cross validation:  683.9339\n\n\nMAPE value for VAR model using cross validation:  33.13922\n\n\n\nForecasted value for the next week using cross validation: 2093.624"
+  },
+  {
+    "objectID": "project_1.html#error-rates-and-forecasted-values--",
+    "href": "project_1.html#error-rates-and-forecasted-values--",
+    "title": "Time Series - Midterm Project",
+    "section": "Error rates and forecasted values -",
+    "text": "Error rates and forecasted values -\n\n\nMAE value for regARIMA without cross-validation: 6.87518\n\n\nMAE value for regARIMA with cross-validation: 8.950738\n\n\nMAE for VAR without cross-validation: 13.68\n\n\nMAE for VAR with cross-validation: 686.3736\n\n\n \n\n\nForecasted value for regARIMA without cross-validation: 2574.019\n\n\nForecasted value for regARIMA with cross-validation: 2293.682\n\n\nForecasted for VAR without cross-validation: 2573.884\n\n\nForecasted for VAR with cross-validation: 2110.842"
+  },
+  {
+    "objectID": "project_1.html#final-forecasted-value",
+    "href": "project_1.html#final-forecasted-value",
+    "title": "Time Series - Midterm Project",
+    "section": "Final forecasted value",
+    "text": "Final forecasted value\nFinal forecasted value is chosen from regARIMA model without cross-validation: 2574.019"
+  },
+  {
+    "objectID": "project_1.html#practical-applications",
+    "href": "project_1.html#practical-applications",
+    "title": "Time Series - Midterm Project",
+    "section": "Practical Applications",
+    "text": "Practical Applications\n\n\n- Lending Strategies: Banks can adjust their lending strategies based on predicted mortgage rate trends, optimizing interest rates to balance profit with risk.\n\n\n- Risk Management: Predictions of loan volumes can inform risk assessments and capital reserve requirements to maintain financial stability.\n\n\n- Market Analysis: Developers and real estate agencies can use these forecasts to anticipate market demand, informing decisions about when to build, sell, or market properties.\n\n\n- Pricing Strategy: Accurate predictions of loans and interest rates can help set appropriate property pricing strategies to match market conditions."
+  }
+]
